@@ -1,0 +1,130 @@
+ 2044  mkdir git-majonez
+ 2045  cd git-majonez/
+ 2046  git init
+ 2047  touch main.cpp
+ 2048  vim main.cpp
+ 2049  git status
+ 2050  git add main.cpp 
+ 2051  git commit -m "Initial commit" main.cpp
+ 2052  vim main.cpp
+ 2053  git status
+ 2054  vim main.cpp
+ 2055  git add main.cpp 
+ 2056  git commit -m "Farewell changed" main.cpp
+ 2057  git remote add origin https://github.com/Maciej3206/git-majonez.git
+ 2058  git push -u origin master
+ 2059  git checkout -b cs
+ 2060  git log
+ 2061  git reset HEAD
+ 2062  git log
+ 2063  git reset HEAD
+ 2064  git log
+ 2065  git reset 985
+ 2066  git log
+ 2067  git reset HEAD^
+ 2068  git log
+ 2069  git branch
+ 2070  vim main.cpp
+ 2071  git status
+ 2072  git add main.cpp 
+ 2073  git commit -m "Greetings" main.cpp 
+ 2074  git branch
+ 2075  git push origin cs
+ 2076  git branch
+ 2077  git checkout master
+ 2078  git branch
+ 2079  git merge cs
+ 2080  git status
+ 2081  vim main.cpp 
+ 2082  history
+ 2083  history | tail -39 > history.txt
+ 2084  ls
+ 2085  cat history.txt 
+ 2086  history
+ 2087  history | tail -44 > history.txt
+ 2088  cat history.txt 
+ 2089  git status
+ 2090  git add main.cpp 
+ 2091  git status
+ 2092  git add history.txt 
+ 2093  git status
+ 2094  git commit
+ 2095  git status
+ 2096  ls -a
+ 2097  cd .git
+ 2098  ls -a
+ 2099  cat COMMIT_EDITMSG 
+ 2100  vim COMMIT_EDITMSG 
+ 2101  cd ..
+ 2102  git branch
+ 2103  git push origin master
+ 2104  git log
+ 2105  git revert c6648
+ 2106  git revert c664876a7f7ce4434a1530000657320e84030dcb
+ 2107  git status
+ 2108  git log
+ 2109  git revert c664876a7f7ce4434a1530000657320e84030dcb -m 1
+ 2110  git status
+ 2111  got log
+ 2112  git log
+ 2113  git branch 
+ 2114  git branch cs
+ 2115  git checkout cs
+ 2116  git branch
+ 2117  git status
+ 2118  ls
+ 2119  git branch master
+ 2120  git checkout master
+ 2121  git branch
+ 2122  ls
+ 2123  cat main.cpp 
+ 2124  checkout master
+ 2125  git checkout master
+ 2126  git branch
+ 2127  cat main.cpp 
+ 2128  git diff
+ 2129  git log
+ 2130  q
+ 2131  git log
+ 2132  git branch
+ 2133  ls
+ 2134  cat main.cpp 
+ 2135  git branch cs
+ 2136  git checkout cs
+ 2137  ls
+ 2138  cat main.cpp 
+ 2139  git branch
+ 2140  git checkout master
+ 2141  git status
+ 2142  git push origin cs
+ 2143  git branch
+ 2144  git merge cs
+ 2145  ls
+ 2146  git branch
+ 2147  ls
+ 2148  git checkout cs
+ 2149  ls
+ 2150  git branch
+ 2151  history
+ 2152  history | tail -n108 > history.txt
+ 2153  cat history.txt 
+ 2154  history | tail -n110 > history.txt
+ 2155  cat history.txt 
+ 2156  history | tail -n113 > history.txt
+ 2157  cat history.txt 
+ 2158  git status
+ 2159  git add history.txt
+ 2160  git commit -m "History added" history.txt 
+ 2161  git status
+ 2162  git checkout master
+ 2163  git status
+ 2164  ls
+ 2165  git log
+ 2166  git branch
+ 2167  history
+ 2168  history | tail -n1253 > history.txt
+ 2169  ls
+ 2170  cat history.txt 
+ 2171  history | tail -n129 > history.txt
+ 2172  cat history.txt 
+ 2173  history | tail -n130 > history.txt
